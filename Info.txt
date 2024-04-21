@@ -1,0 +1,37 @@
+MCU	                  : ESP32 Xtensa dual-core LX6 microprocessor ( esp32-dowdq6-v3 )
+Wireless Connectivity : Wi-Fi 802.11 b/ g/ n, BL V4.2+BLE
+Serial chip           : CH9102
+Optional Flash        : 16M
+Buttons: l006+I007, battery power detection
+
+Display: 1.14 inch ST7789V IPS LCD
+Drive: ST7789
+Resolution: 135 x 240
+High Density 260 PPI
+4-Wire SPI interface
+Working Power Supply: 3.3V
+1.14" diagonal
+Full-color TFT Display
+
+Pinout
+Name        V18
+TFT Driver  ST7789
+TFT_MISO    N/A
+TFT_MOSI    19
+TFT_SCLK    18
+TFT_CS      5
+TFT_DC      16
+TFT_RST     23
+TFT_BL      4
+
+I2C_SDA     21
+I2C_SCL     22
+
+ADC_EN      14 - ADC_EN is the ADC detection enable port. If the USB port is used for power supply, it is turned on by default. If it is powered by battery, it needs to be set to high level
+ADC_IN      34
+
+BUTTON1     35
+BUTTON2     0
+
+https://www.lilygo.cc/products/lilygo%C2%AE-ttgo-t-display-1-14-inch-lcd-esp32-control-board?variant=42159376466101
+https://github.com/Xinyuan-LilyGO/TTGO-T-Display
